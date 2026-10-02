@@ -15,3 +15,5 @@ python3 -m http.server 8000
 - `Photography/*.jpg` retain the supplied photos’ full pixel dimensions. Original HEIC files, including HDR gain maps where present, live in `Photography/originals/`.
 
 GitHub Pages publishes the repository root from `main`. Follow `AGENTS.md` for the authorized validation, automatic merge, and deployment workflow.
+
+Safari tab coloring uses the solid red top edge of the fixed navigation, with a matching red document canvas and `theme-color` (`#E83E31`). Keep these colors aligned and retain the white main-content background. Metadata alone is insufficient: [MDN's compatibility data](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/meta/name/theme-color#browser_compatibility) notes that Safari 26 onward only uses `theme-color` for installed web apps, while [WebKit's page color sampler](https://github.com/WebKit/WebKit/blob/main/Source/WebCore/page/PageColorSampler.cpp) samples the rendered page top. Safari's tab layout and “Show color in tab bar” setting ultimately control its browser UI. A headless page screenshot cannot verify the Safari tab strip itself.
