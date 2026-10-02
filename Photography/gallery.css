@@ -1,0 +1,39 @@
+.photography { scroll-margin-top: 80px; padding: clamp(64px, 8vw, 104px) clamp(20px, 5vw, 48px); background: var(--mm-blush, #f7ece8); }
+.photography-inner { max-width: 1120px; margin: 0 auto; }
+.photography-eyebrow { font-size: 12px; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; color: var(--mm-red); }
+.photography h2 { font-family: var(--font-display); font-variation-settings: 'YEAR' 1979; font-weight: 400; font-size: clamp(24px, 6vw, 88px); line-height: 1.05; text-transform: uppercase; margin: 18px 0 24px; overflow-wrap: anywhere; }
+.photography-intro { font-size: 18px; line-height: 1.5; margin: 0 0 36px; }
+.photography-grid { display: grid; gap: 32px; }
+.photograph { position: relative; margin: 0; border: 2px solid var(--mm-dark); background: var(--mm-dark); }
+.photograph-image { display: block; }
+.photograph-image img { display: block; width: 100%; height: auto; }
+.photograph-image:focus-visible { outline: 4px solid var(--mm-red); outline-offset: 5px; }
+.photograph-caption { padding: 24px; color: #fff; background: rgba(29, 17, 14, .94); }
+.photograph-caption h3 { font-size: 22px; margin: 0 0 12px; }
+.photograph-caption p { margin: 6px 0; font-size: 16px; line-height: 1.5; }
+.photograph-capture { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px 24px; margin: 18px 0; }
+.photograph-capture > div { min-width: 0; }
+.photograph-capture dt { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; opacity: .7; }
+.photograph-capture dd { margin: 4px 0 0; font-size: 16px; line-height: 1.35; overflow-wrap: anywhere; }
+.photograph-caption a { color: #fff; text-underline-offset: 4px; }
+.photograph-caption a:focus-visible { outline: 2px solid #fff; outline-offset: 4px; }
+.photograph-hdr { display: inline-block; border: 1px solid currentColor; padding: 2px 8px; margin-left: 8px; font-size: 12px; letter-spacing: .06em; vertical-align: middle; }
+@media (hover: hover) and (pointer: fine) and (min-width: 700px) {
+  .photograph-caption { position: absolute; bottom: 0; left: 0; right: 0; max-height: 100%; overflow-y: auto; opacity: 0; pointer-events: none; transition: opacity .18s ease; }
+  .photograph:hover .photograph-caption, .photograph:focus-within .photograph-caption { opacity: 1; pointer-events: auto; }
+}
+@media (max-width: 700px) {
+  #mm-nav-links { gap: 12px !important; }
+  #mm-nav-links a[href="#photography"] { font-size: 11px !important; }
+  #mm-nav-links a[href="#contact"] { padding: 8px 10px !important; }
+}
+@media (max-width: 380px) {
+  .site-navigation { padding-left: 12px !important; padding-right: 12px !important; }
+  .site-navigation > a > span { max-width: 72px; font-size: 10px !important; }
+  #mm-nav-links { gap: 8px !important; }
+  #mm-nav-links a[href="#photography"] { font-size: 10px !important; letter-spacing: .04em !important; }
+  #mm-nav-links a[href="#contact"] { font-size: 10px !important; padding: 8px !important; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .photograph-caption { transition: none; }
+}
