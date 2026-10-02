@@ -1,0 +1,138 @@
+@font-face {
+  font-family: 'Archivo Narrow';
+  src: url("fonts/archivo-narrow.ttf") format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Climate Crisis';
+  src: url("fonts/climate-crisis.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  /* ——— Brand Primitives ——— */
+  --mm-red:        #E83E31;
+  --mm-red-deep:   #C42D1E;
+  --mm-blush:      #F4E0DC;
+  --mm-blush-dark: #E8C8C0;
+  --mm-dark:       #3B1812;
+  --mm-dark-mid:   #6B3020;
+  --mm-white:      #FFFFFF;
+  --mm-off-white:  #FAF7F6;
+
+  /* ——— Semantic Tokens ——— */
+  --color-bg:           var(--mm-white);
+  --color-bg-subtle:    var(--mm-off-white);
+  --color-fg:           var(--mm-dark);
+  --color-accent:       var(--mm-red);
+  --color-accent-hover: var(--mm-red-deep);
+  --color-surface:      var(--mm-blush);
+  --color-surface-dark: var(--mm-blush-dark);
+  --color-on-accent:    var(--mm-white);
+  --color-on-surface:   var(--mm-dark);
+  --color-border:       var(--mm-dark);
+  --color-muted:        rgba(59, 24, 18, 0.45);
+  --color-muted-light:  rgba(59, 24, 18, 0.18);
+}
+
+:root {
+  /* ——— Font Families ——— */
+  --font-display: 'Climate Crisis', serif;
+  --font-body:    'Archivo Narrow', sans-serif;
+
+  /* ——— Type Scale ——— */
+  --text-xs:      0.75rem;    /* 12px */
+  --text-sm:      0.875rem;   /* 14px */
+  --text-base:    1rem;       /* 16px */
+  --text-lg:      1.25rem;    /* 20px */
+  --text-xl:      1.5rem;     /* 24px */
+  --text-2xl:     2rem;       /* 32px */
+  --text-3xl:     3rem;       /* 48px */
+  --text-4xl:     4.5rem;     /* 72px */
+  --text-5xl:     6rem;       /* 96px */
+  --text-display: 9rem;       /* 144px */
+
+  /* ——— Weights ——— */
+  --weight-light:    300;
+  --weight-regular:  400;
+  --weight-medium:   500;
+  --weight-semibold: 600;
+  --weight-bold:     700;
+  --weight-black:    900;
+
+  /* ——— Line Heights ——— */
+  --leading-none:    1;
+  --leading-tight:   1.08;
+  --leading-snug:    1.25;
+  --leading-normal:  1.5;
+  --leading-relaxed: 1.65;
+
+  /* ——— Letter Spacing ——— */
+  --tracking-tight:   -0.02em;
+  --tracking-normal:  0em;
+  --tracking-wide:    0.05em;
+  --tracking-wider:   0.1em;
+  --tracking-widest:  0.18em;
+}
+
+:root {
+  /* ——— Base Scale (4px grid) ——— */
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  20px;
+  --space-6:  24px;
+  --space-8:  32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+  --space-32: 128px;
+
+  /* ——— Semantic ——— */
+  --spacing-page-gutter:   var(--space-8);
+  --spacing-section-gap:   var(--space-20);
+  --spacing-card-padding:  var(--space-6);
+  --spacing-component-gap: var(--space-4);
+  --spacing-inline-gap:    var(--space-2);
+
+  /* ——— Border Radius ——— */
+  --radius-none: 0px;
+  --radius-sm:   2px;
+  --radius-md:   4px;
+  --radius-full: 9999px;
+}
+
+:root {
+  /* ——— Hard Offset Shadows (editorial, no blur) ——— */
+  --shadow-sm:  2px  2px 0 var(--mm-dark);
+  --shadow-md:  4px  4px 0 var(--mm-dark);
+  --shadow-lg:  8px  8px 0 var(--mm-dark);
+  --shadow-xl: 12px 12px 0 var(--mm-dark);
+
+  /* ——— Accent Shadows ——— */
+  --shadow-accent-sm: 2px 2px 0 var(--mm-red);
+  --shadow-accent-md: 4px 4px 0 var(--mm-red);
+
+  /* ——— Focus ——— */
+  --focus-ring: 0 0 0 3px var(--mm-blush), 0 0 0 5px var(--mm-red);
+
+  /* ——— Transitions ——— */
+  --transition-fast:   0.1s ease;   /* @kind other */
+  --transition-normal: 0.2s ease;   /* @kind other */
+  --transition-slow:   0.35s ease;  /* @kind other */
+}
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: #FFFFFF; overflow-x: hidden; }
+    @media (max-width: 520px) {
+      #mm-nav-links [data-nav-hide] { display: none; }
+    }
