@@ -1,8 +1,36 @@
 [
   {
+    "slug": "aurelia-cirque-du-slain",
+    "title": "Aurelia · Cirque du Slain",
+    "order": 1,
+    "source_filename": "IMG_3617(1).jpeg",
+    "image": "Photography/aurelia-cirque-du-slain.jpg",
+    "original": "Photography/aurelia-cirque-du-slain.jpg",
+    "width": 1536,
+    "height": 1152,
+    "camera": "Apple iPhone 18 Pro",
+    "lens": "Main camera · 24 mm",
+    "aperture": "ƒ/1.48",
+    "exposure": "1/40 s",
+    "iso": "250",
+    "photographic_style": "Dramatic · Apple Photographic Styles",
+    "metadata_note": "Capture details confirmed from the photographer’s Apple Photos information screenshot; the website JPEG is a 1536 × 1152 derivative.",
+    "subject": "Aurelia Singh",
+    "subject_instagram": "aureliassinghh",
+    "event": "Cirque du Slain — Boulder High Theater’s 2026 Haunted House",
+    "event_url": "https://sites.google.com/bvsd.org/boulderhightheater/haunted-house",
+    "hdr_confirmed": false,
+    "equivalent_focal_length": "48 mm equivalent",
+    "exposure_compensation": "0 EV",
+    "captured_at": "2026-10-31T18:01:00",
+    "original_capture_width": 4032,
+    "original_capture_height": 3024,
+    "original_capture_format": "HEIF"
+  },
+  {
     "slug": "boulder-at-blue-hour",
     "title": "Boulder at blue hour",
-    "order": 1,
+    "order": 2,
     "source_filename": "dji_fly_20260606_205538_0133_1780803113433_photo.heic",
     "image": "Photography/boulder-at-blue-hour.jpg",
     "original": "Photography/originals/boulder-at-blue-hour.heic",
@@ -23,7 +51,7 @@
   {
     "slug": "trees-in-evening-light",
     "title": "Trees in evening light",
-    "order": 2,
+    "order": 3,
     "source_filename": "IMG_9978.heic",
     "image": "Photography/trees-in-evening-light.jpg",
     "original": "Photography/originals/trees-in-evening-light.heic",
@@ -44,7 +72,7 @@
   {
     "slug": "clouds-over-the-foothills",
     "title": "Clouds over the foothills",
-    "order": 3,
+    "order": 4,
     "source_filename": "IMG_1486.heic",
     "image": "Photography/clouds-over-the-foothills.jpg",
     "original": "Photography/originals/clouds-over-the-foothills.heic",
@@ -65,7 +93,7 @@
   {
     "slug": "lights-beyond-the-reservoir",
     "title": "Lights beyond the reservoir",
-    "order": 4,
+    "order": 5,
     "source_filename": "DJI_20260614210939_0210_D.heic",
     "image": "Photography/lights-beyond-the-reservoir.jpg",
     "original": "Photography/originals/lights-beyond-the-reservoir.heic",
@@ -86,7 +114,7 @@
   {
     "slug": "beneath-the-surface",
     "title": "Beneath the surface",
-    "order": 5,
+    "order": 6,
     "source_filename": "IMG_4630.heic",
     "image": "Photography/beneath-the-surface.jpg",
     "original": "Photography/originals/beneath-the-surface.heic",
@@ -107,7 +135,7 @@
   {
     "slug": "night-from-above",
     "title": "Night from above",
-    "order": 6,
+    "order": 7,
     "source_filename": "dji_fly_20260604_221036_0145_1780632946996_photo.heic",
     "image": "Photography/night-from-above.jpg",
     "original": "Photography/originals/night-from-above.heic",
@@ -128,7 +156,7 @@
   {
     "slug": "headlights-after-dark",
     "title": "Headlights after dark",
-    "order": 7,
+    "order": 8,
     "source_filename": "dji_fly_20260614_210434_0207_1781567514806_photo.heic",
     "image": "Photography/headlights-after-dark.jpg",
     "original": "Photography/originals/headlights-after-dark.heic",
@@ -149,7 +177,7 @@
   {
     "slug": "a-moment-on-the-ground",
     "title": "A moment on the ground",
-    "order": 8,
+    "order": 9,
     "source_filename": "DJI_20260822153055_0399_D.heic",
     "image": "Photography/a-moment-on-the-ground.jpg",
     "original": "Photography/originals/a-moment-on-the-ground.heic",
@@ -170,7 +198,7 @@
   {
     "slug": "light-and-form",
     "title": "Light and form",
-    "order": 9,
+    "order": 10,
     "source_filename": "IMG_1605.heic",
     "image": "Photography/light-and-form.jpg",
     "original": "Photography/originals/light-and-form.heic",
@@ -191,7 +219,7 @@
   {
     "slug": "by-the-window",
     "title": "By the window",
-    "order": 10,
+    "order": 11,
     "source_filename": "IMG_1255.heic",
     "image": "Photography/by-the-window.jpg",
     "original": "Photography/originals/by-the-window.heic",
@@ -212,7 +240,7 @@
   {
     "slug": "along-for-the-ride",
     "title": "Along for the ride",
-    "order": 11,
+    "order": 12,
     "source_filename": "IMG_2628.heic",
     "image": "Photography/along-for-the-ride.jpg",
     "original": "Photography/originals/along-for-the-ride.heic",
