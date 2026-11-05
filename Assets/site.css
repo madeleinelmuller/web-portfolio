@@ -3,6 +3,7 @@
    and consistent with the initial HTML canvas and theme-color metadata. */
 html { background: var(--mm-red); scroll-padding-top: 84px; }
 body { color: var(--mm-dark); font-family: var(--font-body), sans-serif; }
+.page-shell { min-height: 100vh; background: var(--mm-white); }
 a, button, summary { -webkit-tap-highlight-color: transparent; }
 button, summary { font: inherit; }
 a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px solid var(--mm-red); outline-offset: 5px; }
@@ -14,7 +15,7 @@ a:focus-visible, button:focus-visible, summary:focus-visible { outline: 3px soli
 .site-brand span { font-size: 13px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
 #mm-nav-links { display: flex; align-items: center; gap: clamp(20px, 3vw, 40px); }
 .site-navigation a:not(.site-brand) { font-size: 13px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; text-decoration: none; color: #1A0A07; }
-.site-navigation a[aria-current="location"] { text-decoration: underline; text-decoration-color: currentColor; text-decoration-thickness: 3px; text-underline-offset: 8px; }
+.site-navigation a[aria-current] { text-decoration: underline; text-decoration-color: currentColor; text-decoration-thickness: 3px; text-underline-offset: 8px; }
 .site-navigation :focus-visible { outline-color: #1A0A07; }
 .site-navigation .nav-contact { padding: 12px 20px; background: var(--mm-blush); border: 2px solid var(--mm-dark); }
 .mobile-navigation, .mobile-photo-link { display: none; }
