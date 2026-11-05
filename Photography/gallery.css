@@ -1,7 +1,7 @@
 .photography { scroll-margin-top: 80px; padding: clamp(64px, 8vw, 104px) clamp(20px, 5vw, 48px); background: var(--mm-blush, #f7ece8); }
 .photography-inner { max-width: 1120px; margin: 0 auto; }
 .photography-eyebrow { font-size: 12px; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; color: var(--mm-red); }
-.photography h2 { font-family: var(--font-display); font-variation-settings: 'YEAR' 1979; font-weight: 400; font-size: clamp(24px, 6vw, 88px); line-height: 1.05; text-transform: uppercase; margin: 18px 0 24px; overflow-wrap: anywhere; }
+.photography h1 { font-family: var(--font-display); font-variation-settings: 'YEAR' 1979; font-weight: 400; font-size: clamp(24px, 6vw, 88px); line-height: 1.05; text-transform: uppercase; margin: 18px 0 24px; overflow-wrap: anywhere; }
 .photography-intro { font-size: 18px; line-height: 1.5; margin: 0 0 36px; }
 .photography-grid { display: grid; gap: 32px; }
 .photograph { position: relative; margin: 0; border: 2px solid var(--mm-dark); background: var(--mm-dark); }

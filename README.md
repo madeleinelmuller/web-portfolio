@@ -8,7 +8,8 @@ Run locally from this checkout:
 python3 -m http.server 8000
 ```
 
-- `index.html` contains the content, navigation, awards, and photography gallery.
+- `index.html` contains the home page, navigation, story, awards, and contact details.
+- `photography.html` contains the full photography gallery and image viewer. The top navigation opens this page, and former `#photography` links redirect here.
 - `Assets/base.css` defines the original typography and brand colors; `Assets/site.css` adds responsive layouts and the image viewer.
 - `Assets/site.js` enhances the native navigation and full-resolution photo/award links. The core content and links remain usable without JavaScript.
 - `Photography/photos.json` records capture metadata and gallery order. Keep it consistent with the gallery markup when adding photos.
