@@ -18,10 +18,11 @@
 .photograph-caption a { color: #fff; text-underline-offset: 4px; }
 .photograph-caption a:focus-visible { outline: 2px solid #fff; outline-offset: 4px; }
 .photograph-hdr { display: inline-block; border: 1px solid currentColor; padding: 2px 8px; margin-left: 8px; font-size: 12px; letter-spacing: .06em; vertical-align: middle; }
-@media (hover: hover) and (pointer: fine) and (min-width: 700px) {
-  .photograph-caption { position: absolute; bottom: 0; left: 0; right: 0; max-height: 100%; overflow-y: auto; opacity: 0; pointer-events: none; transition: opacity .18s ease; }
-  .photograph:hover .photograph-caption, .photograph:focus-within .photograph-caption { opacity: 1; pointer-events: auto; }
-}
 @media (prefers-reduced-motion: reduce) {
   .photograph-caption { transition: none; }
 }
+
+/* Camera credits stay visible, without hovering over the photograph. */
+.photograph-camera { margin: 0 0 16px; padding-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,.25); }
+.photograph-camera-label { display: block; margin-bottom: 6px; font-size: 11px; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; color: #f6b5a8; }
+.photograph-camera h2 { margin: 0; font-family: inherit; font-size: clamp(24px, 4vw, 36px); line-height: 1.2; font-weight: 700; letter-spacing: -.02em; overflow-wrap: anywhere; }
